@@ -1,2 +1,2 @@
 # CALayer-CurveMaker
-make curve layers for UIView or CALayer
+extension of making curve layers for UIView or CALayer
