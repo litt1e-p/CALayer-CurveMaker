@@ -19,17 +19,17 @@ class ViewController: UIViewController {
         v.center          = view.center
         view.addSubview(v)
         
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionLeft, direction: CurveDirection.CurveDirectionOutside, color: c)
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionLeft, direction: CurveDirection.CurveDirectionInside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionLeft, direction: .CurveDirectionOutside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionLeft, direction: .CurveDirectionInside, color: c)
         
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionTop, direction: CurveDirection.CurveDirectionOutside, color: c)
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionTop, direction: CurveDirection.CurveDirectionInside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionTop, direction: .CurveDirectionOutside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionTop, direction: .CurveDirectionInside, color: c)
         
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionBottom, direction: CurveDirection.CurveDirectionOutside, color: c)
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionBottom, direction: CurveDirection.CurveDirectionInside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionBottom, direction: .CurveDirectionOutside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionBottom, direction: .CurveDirectionInside, color: c)
         
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionRight, direction: CurveDirection.CurveDirectionOutside, color: c)
-        v.layer.makeCurve(o, position: CurvePosition.CurvePositionRight, direction: CurveDirection.CurveDirectionInside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionRight, direction: .CurveDirectionOutside, color: c)
+        v.layer.makeCurve(o, position: .CurvePositionRight, direction: .CurveDirectionInside, color: c)
     }
 }
 
