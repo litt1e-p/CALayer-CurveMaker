@@ -2,7 +2,7 @@
 extension of making curve layers for UIView or CALayer
 
 # Usage
-`needs one line code only!`
+
 ```swift
 //init a view
 let v = UIView(frame:CGRectMake(30, 40, 200, 100))
