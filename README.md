@@ -33,6 +33,10 @@ v.layer.makeCurve(o, position: .CurvePositionLeft, direction: .CurveDirectionOut
 ```swift
 just download lib folder and add into your project
 ```
+- cocoaPods
+```swift
+pod 'CALayer+CurveMaker', '~> 0.0.1'
+```
 
 # Screenshot
 
