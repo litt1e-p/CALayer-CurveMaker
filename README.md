@@ -44,6 +44,6 @@ pod 'CALayer+CurveMaker', '~> 0.0.1'
 
 # Release notes
 
-##### ver 1.0
+##### ver 0.0.1
 
 `origin version.`
