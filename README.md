@@ -42,6 +42,10 @@ pod 'CALayer+CurveMaker', '~> 0.0.1'
 
 <img src="screenshot.png" width="320">
 
+# Todo
+
+- [ ] work in WKWebView
+
 # Release notes
 
 ##### ver 0.0.1
